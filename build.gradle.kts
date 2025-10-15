@@ -86,11 +86,11 @@ task<Test>("integrationTest") {
 }
 
 // Publish plugin
-val registryPluginName = "com.github.imflog.kafka-schema-registry-gradle-plugin"
+val registryPluginName = "com.github.thanhvg.kafka-schema-registry-gradle-plugin"
 @Suppress("UnstableApiUsage")
 gradlePlugin {
-    website.set("https://github.com/ImFlog/schema-registry-plugin")
-    vcsUrl.set("https://github.com/ImFlog/schema-registry-plugin.git")
+    website.set("https://github.com/thanhvg/schema-registry-plugin")
+    vcsUrl.set("https://github.com/thanhvg/schema-registry-plugin.git")
     testSourceSets(
         sourceSets["test"],
         integrationSource
